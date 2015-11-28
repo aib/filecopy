@@ -1,0 +1,7 @@
+filecopy, 2005-07-31
+
+This is a small Win32 file copying utility I wrote back in the time of CD-ROM disks.
+
+The quality of the disks (and drives) I encountered were such that I would often get errors trying to read them. The errors would occur in random sectors and furthermore, those sectors would change every time I (re-)inserted the disk. As such, it would be possible to read a disk fully if one made multiple (*numerous*) attempts and read different portions each time. A simple file/disk image reader with resume support (and patience) was all that was needed and this utility is what I came up with. I don't know why I didn't simply use dd(1), but in any case reinventing this certain wheel benefited me at the time.
+
+Later, I used it for copying files over networks because of its handy speed indicator.
